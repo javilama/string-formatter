@@ -29,7 +29,7 @@ export default function TextFormatter() {
   }, [text, useUnderscore]);
 
   return (
-    <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl p-8 bg-formatter-gradient text-white rounded-xl mx-auto min-h-[400px] gap-4 ">
+    <div className="w-[90%] ms:w-full lg:max-w-[700px] p-8 bg-formatter-gradient text-white rounded-xl  min-h-[600px] gap-4 ">
       <textarea
         className="w-full p-2 rounded bg-neutral-800 text-white"
         placeholder="Ingresa texto"
