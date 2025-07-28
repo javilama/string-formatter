@@ -16,6 +16,9 @@ import TextFormatter from '../components/TextFormatter.jsx';
   </head>
   <body class="bg-body-gradient text-white min-h-screen flex flex-col items-center justify-center">
     <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Formateador de Texto</h1>
+    <p class="text-xs text-justify sm:text-sm leading-relaxed text-white text-wrap py-4 sm:px-6 max-w-[700px] mx-auto" >Ingresa o pega tu texto en el campo. El formato se aplicar&aacute;
+ autom&aacute;ticamente: los espacios se reemplazar&aacute;n por guiones ( - ) o, si lo prefieres, por guiones bajos ( _ ), y se eliminar&aacute;n los caracteres especiales.
+    Al final obtendr&aacute;s una cadena limpia y lista para usar como nombre de archivo, imagen o en una URL. Adem&aacute;s, podr&aacute;s consultar tu historial de uso en cualquier momento.</p>
     <TextFormatter client:load />
   </body>
 </html>
